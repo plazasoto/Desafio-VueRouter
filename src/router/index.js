@@ -18,10 +18,10 @@ const routes = [
     component: () => import('../views/ProductsView.vue'),
     props: () => {
       return {
-        nombre: "Producto",
-        descripcion: "El producto",
-        precio: "$_.___",
-        cantidad: "Para _ personas",
+        nombre: "Desayunos",
+        descripcion: "Contamos con desayunos nutritivos y deliciosos.",
+        precio: "2000",
+        cantidad: "Para 2 personas",
       }
     }
   }

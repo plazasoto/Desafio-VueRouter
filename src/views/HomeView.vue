@@ -1,5 +1,8 @@
 <template>
-  <Card />
+  <section class="container" id="productos">
+    <h1 class="text-center">Bienvenidos</h1>
+    <!-- <Card /> -->
+  </section>
 </template>
 
 <script>
