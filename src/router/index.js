@@ -15,7 +15,15 @@ const routes = [
   {
     path: '/productos',
     name: 'productos',
-    component: () => import('../views/ProductsView.vue')
+    component: () => import('../views/ProductsView.vue'),
+    props: () => {
+      return {
+        nombre: "Producto",
+        descripcion: "El producto",
+        precio: "$_.___",
+        cantidad: "Para _ personas",
+      }
+    }
   }
 ]
 
